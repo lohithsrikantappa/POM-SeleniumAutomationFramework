@@ -10,7 +10,7 @@ public class TestCase1 extends Loginpage{
   @Test(groups = "smoke")
   public void verifyingtheloginPageSusccessfull() throws InterruptedException{
 	  login.enterCredentails();
-	 
+	 System.out.println("login page");
   }
   
   @Test(groups = "Regression")
