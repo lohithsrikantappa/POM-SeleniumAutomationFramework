@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testng(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases.TestCase1">
+        <methods>
+          <include name="BrowserSetup"/>
+          <include name="initializeReport"/>
+          <include name="verifying_the_Invalid_credential"/>
+        </methods>
+      </class> <!-- TestCases.TestCase1 -->
+    </classes>
+  </test> <!-- Testng(failed) -->
+</suite> <!-- Failed suite [Suite] -->
